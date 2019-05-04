@@ -1,0 +1,29 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "lading",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannymaster12/landieng-politic.git"
+  },
+  "author": "daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannymaster12/landieng-politic/issues"
+  },
+  "homepage": "https://github.com/dannymaster12/landieng-politic#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.5",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
